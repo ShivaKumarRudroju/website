@@ -1,4 +1,11 @@
+import SampleSlider from "../Slick-slider";
+
 function Productpage() {
-  return <h1>Productpage</h1>;
+  return (
+    <>
+      <SampleSlider/>
+      <h1>Productpage</h1>
+    </>
+  );
 }
 export default Productpage;
